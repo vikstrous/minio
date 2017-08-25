@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/minio/minio/pkg/lock"
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 // Returns if the prefix is a multipart upload.

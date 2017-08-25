@@ -34,7 +34,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 // AWS Signature Version '4' constants.

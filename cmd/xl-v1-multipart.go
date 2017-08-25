@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/minio/minio/pkg/mimedb"
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 // updateUploadJSON - add or remove upload ID info in all `uploads.json`.

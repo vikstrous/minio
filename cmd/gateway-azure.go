@@ -32,7 +32,7 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/storage"
 	"github.com/minio/minio-go/pkg/policy"
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 const globalAzureAPIVersion = "2016-05-31"

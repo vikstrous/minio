@@ -21,7 +21,7 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 // getSHA256Hash returns SHA-256 hash of given data.

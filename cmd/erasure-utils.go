@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	"github.com/klauspost/reedsolomon"
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 	"golang.org/x/crypto/blake2b"
 )
 

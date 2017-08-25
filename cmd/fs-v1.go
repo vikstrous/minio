@@ -30,7 +30,7 @@ import (
 	"syscall"
 
 	"github.com/minio/minio/pkg/lock"
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 // fsObjects - Implements fs object layer.

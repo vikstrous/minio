@@ -29,7 +29,7 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/sha256-simd"
+	"crypto/sha256"
 )
 
 // Streaming AWS Signature Version '4' constants.
